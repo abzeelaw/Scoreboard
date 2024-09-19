@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    background-color: #1b244a;
+    height: 400px;
+    max-width: 1000px;
+    margin: 90px auto;
+    background-size: cover;
+    border: red solid 4px;
+    border-radius: 20px;
+}
+h3{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    /* padding-top: 10px; */
+    font-size: 40px;
+    /* background-color: black; */
+}
+
+.guest-board{
+
+    text-align: center;
+    margin: 10px 0px 21px 0px;
+}
+
+.home-board{
+
+    text-align: center;
+    margin: 10px 0px 21px 0px;
+}
+
+
+#home-display, #guest-display {
+    
+    font-family: Cursed Timer ULiL, sans-serif;
+    color: red;
+    font-size: 90px;
+    padding: 10px 20px 10px 20px;
+    margin: 0px 20px;
+    background-color: black;
+    border-radius: 10px;
+    justify-content: center;
+    
+
+}
+
+.increment-home, .decrease-home{
+    font-size: 20px;
+    /* background-color: white; */
+    margin: 30px 50px 30px 50px;
+}
+
+.increment-guest, .decrease-guest{
+    font-size: 20px;
+    /* background-color: white; */
+    margin: 30px 50px 30px 50px;
+    /* background-color: #1b244a;
+    color: white;
+    padding: 8px;
+    margin: 0px 4px 0px 4px;
+    border: white solid 2px;
+    border-radius: 5px; */
+}
+
+button {
+    background-color: #1b244a;
+    color: white;
+    padding: 12px;
+    margin: 0px 0px 0px 0px;
+    border: white solid 2px;
+    border-radius: 5px;
+}
+#newgame{
+display: flex;
+}
+h2{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* margin: 20px 55px 21px 45px; */
+    /* padding-top: 10px; */
+    font-size: 20px;
+    /* background-color: black; */
+}
+.foul-board, .period-board{
+    text-align: left;
+    margin: 0px 0px 0px 0px;
+}
+
+#foul-display, #period-display {
+    font-family: Cursed Timer ULil;
+    color: red;
+    font-size: 60px;
+    padding: 5px 10px 5px 10px;
+    background-color: black;
+    border-radius: 10px;
+    
+
+}
+
+.increment-foul, .increment-period{
+    background-color: #1b244a;
+    color: white;
+    padding: 0px;
+    margin: 10px 0px 0px 8px;
+    /* border: white solid 2px;
+    border-radius: 5px; */
+    justify-content: left;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel= "stylesheet" href="index.css">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="home-board">
+            <h3><b>HOME</b></h3>
+            <span id="home-display"></span>
+                <div class="increment-home">
+                    <button id="one" onclick="addonehome()">+1</button>
+                    <button id="two" onclick="addtwohome()">+2</button>
+                    <button id="three" onclick="addthreehome()">+3</button>
+
+                    <div class="decrease-home">
+                        <button id="minusone" onclick="minusonehome()">-1</button>
+                        <button id="minustwo" onclick="minustwohome()">-2</button>
+                        <button id="minusthree" onclick="minusthreehome()">-3</button>
+                    </div>
+
+                </div>
+
+        </div>
+        <div class="guest-board">
+            <h3><b>GUEST</b></h3>
+            <span id="guest-display"></span>
+            <div class="increment-guest">
+                <button id="one" onclick="addoneguest()">+1</button>
+                <button id="two" onclick="addtwoguest()">+2</button>
+                <button id="three" onclick="addthreeguest()">+3</button>
+            </div>
+
+            <div class="decrease-guest">
+                <button id="minusone" onclick="minusoneguest()">-1</button>
+                <button id="minustwo" onclick="minustwoguest()">-2</button>
+                <button id="minusthree" onclick="minusthreeguest()">-3</button>
+            </div>
+
+        </div>
+
+        <div class="foul-board">
+            <h2><b>FOUL</b></h2>
+            <span id="foul-display"></span>
+                <div class="increment-foul">
+                    <button id="onefoul" onclick="addonefoul()">+1</button>
+                    
+                </div>
+       
+            <div class="period-board">
+                <h2><b>PERIOD</b></h2>
+                <span id="period-display"></span>
+                    <div class="increment-period">
+                        <button id="oneperiod" onclick="addoneperiod()">+1</button>
+                                
+                    </div>
+            </div>
+
+        </div>         
+
+
+     <!-- <button id="newgame" onclick="refresh()">New Game</button> -->
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
